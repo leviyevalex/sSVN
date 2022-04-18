@@ -1,0 +1,16 @@
+xtick.direction: in
+ytick.direction: in
+text.usetex: True
+font.family: serif
+#axes.labelsize: 10
+font.size: 10
+#legend.fontsize: 8
+xtick.labelsize: 8
+ytick.labelsize: 8
+legend.frameon: False
+axes.linewidth: 0.3
+axes.grid: False
+xtick.major.width: 0.3
+ytick.major.width: 0.3
+xtick.major.size: 2
+ytick.major.size: 2
