@@ -20,5 +20,4 @@ Code for these animations found in `notebooks/double_banana_flows.ipynb`
 
 # Getting started
 ## Installation
-
-## Minimal example
+Code has been tested using `Python 3.6` on both Linux and Windows. Install libraries in `requirements.txt` and run a notebook of your choice from `notebooks/`.
