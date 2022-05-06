@@ -3,7 +3,7 @@ from models.HRD import hybrid_rosenbrock
 from corner import corner
 from pathlib import Path
 import numpy as np
-from plots.plot_helper_functions import collect_samples
+from scripts.plot_helper_functions import collect_samples
 import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import seaborn as sns

@@ -2,11 +2,10 @@
 from pathlib import Path
 import os
 import matplotlib.pyplot as plt
-import palettable
-from plots.plot_helper_functions import set_size, extract_moments
+from scripts.plot_helper_functions import extract_moments
 import numpy as np
 from models.HRD import hybrid_rosenbrock
-from plots.plot_helper_functions import collect_samples
+from scripts.plot_helper_functions import collect_samples
 import seaborn as sns
 
 #%% Find root directory and load double banana ground truth file

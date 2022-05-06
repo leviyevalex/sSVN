@@ -9,7 +9,7 @@ def set_size(width, fraction=1, subplots=(1, 1)):
     Parameters
     ----------
     width: float or string
-            Document width in points, or string of predined document type
+            Document width in points, or string of predefined document type
     fraction: float, optional
             Fraction of the width which you wish the figure to occupy
     subplots: array-like, optional

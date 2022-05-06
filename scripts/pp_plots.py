@@ -1,18 +1,12 @@
 import numpy as np
-import seaborn as sns
-import pandas as pd
 import matplotlib.pyplot as plt
-from plots.plot_helper_functions import set_size
+from scripts.plot_helper_functions import set_size
 import h5py
 import logging.config
 import os
 from models.HRD import hybrid_rosenbrock
-import palettable
-from plots.plot_helper_functions import collect_samples
+from scripts.plot_helper_functions import collect_samples
 # from statsmodels.graphics.gofplots import qqplot_2samples
-import scipy
-from cycler import cycler
-import matplotlib as mpl
 root = os.path.dirname(os.path.abspath(__file__))
 log = logging.getLogger(__name__)
 def make_pp_plots(h5_dict, GT, save_path=None):

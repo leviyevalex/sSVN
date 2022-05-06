@@ -6,14 +6,14 @@ import itertools
 # import palettable
 import logging.config
 # import matplotlib.pyplot as plt
-from plots.plot_helper_functions import set_size
+from scripts.plot_helper_functions import set_size
 import os
 # import matplotlib as mpl
 from opt_einsum import contract
 log = logging.getLogger(__name__)
 root = os.path.dirname(os.path.abspath(__file__))
 class hybrid_rosenbrock:
-    def __init__(self, n2, n1, mu, a, b, id=None):
+    def __init__(self, n2, n1, mu, a, b, id=''):
         """
         Hybrid-Rosenbrock class
         Args:
@@ -303,7 +303,6 @@ class hybrid_rosenbrock:
 def main():
 
     pass
-    from corner import corner
     #########################################
     # Testing 2D Case
     #########################################
