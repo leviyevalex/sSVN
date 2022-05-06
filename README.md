@@ -2,13 +2,10 @@
 A package accompanying https://arxiv.org/abs/2204.09039, which implements Stein variational gradient descent (SVGD), Stein variational Newton (SVN), and their stochastic counterparts (sSVGD, sSVN).
 
 # Motivation
-Stein variational gradient descent (SVGD) is a general-purpose optimization-based sampling algo-
-rithm that has recently exploded in popularity, but is limited by two issues: it is known to produce
+Stein variational gradient descent (SVGD) is a general-purpose optimization-based sampling algo rithm that has recently exploded in popularity, but is limited by two issues: it is known to produce
 biased samples, and it can be slow to converge on complicated distributions. A recently proposed
-stochastic variant of SVGD (sSVGD) addresses the first issue, producing unbiased samples by incor-
-porating a special noise into the SVGD dynamics such that asymptotic convergence is guaranteed.
-Meanwhile, Stein variational Newton (SVN), a Newton-like extension of SVGD, dramatically ac-
-celerates the convergence of SVGD by incorporating Hessian information into the dynamics, but
+stochastic variant of SVGD (sSVGD) addresses the first issue, producing unbiased samples by incorporating a special noise into the SVGD dynamics such that asymptotic convergence is guaranteed.
+Meanwhile, Stein variational Newton (SVN), a Newton-like extension of SVGD, dramatically accelerates the convergence of SVGD by incorporating Hessian information into the dynamics, but
 also produces biased samples. In this paper we derive, and provide a practical implementation of,
 a stochastic variant of SVN (sSVN) which is both asymptotically correct and converges rapidly. We demonstrate
 that this method holds promise for parameter estimation problems of modest dimension.
