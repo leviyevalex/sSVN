@@ -19,3 +19,6 @@ Code for these animations found in `notebooks/double_banana_flows.ipynb`
 
 
 # Getting started
+## Installation
+
+## Minimal example
