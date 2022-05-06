@@ -11,7 +11,7 @@ Meanwhile, Stein variational Newton (SVN), a Newton-like extension of SVGD, dram
 celerates the convergence of SVGD by incorporating Hessian information into the dynamics, but
 also produces biased samples. In this paper we derive, and provide a practical implementation of,
 a stochastic variant of SVN (sSVN) which is both asymptotically correct and converges rapidly. We demonstrate
-that this method holds promise for parameter estimation problems of modest dimension $d \sim 10$.
+that this method holds promise for parameter estimation problems of modest dimension.
 
 # Flow illustration
 Code for these animations found in `notebooks/double_banana_flows.ipynb`
