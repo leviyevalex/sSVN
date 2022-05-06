@@ -1,0 +1,7 @@
+tqdm
+h5py
+pyinstrument
+opt_einsum
+matplotlib
+pillow
+corner
