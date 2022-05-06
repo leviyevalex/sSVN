@@ -1,6 +1,5 @@
 # sSVN
-
-Code accompanying https://arxiv.org/abs/2204.09039
+A package accompanying https://arxiv.org/abs/2204.09039, which implements Stein variational gradient descent (SVGD), Stein variational Newton (SVN), and their stochastic counterparts (sSVGD, sSVN).
 
 ![sSVGD](https://media.giphy.com/media/CH7cd0w3CbeaGon7vt/giphy.gif)
 ![sSVN](https://media.giphy.com/media/BCxYUmkAQtbEJd1vam/giphy.gif)
