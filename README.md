@@ -1,10 +1,14 @@
 # sSVN
 A package accompanying https://arxiv.org/abs/2204.09039, which implements Stein variational gradient descent (SVGD), Stein variational Newton (SVN), and their stochastic counterparts (sSVGD, sSVN).
 
-![sSVGD](https://media.giphy.com/media/CH7cd0w3CbeaGon7vt/giphy.gif)
-![sSVN](https://media.giphy.com/media/BCxYUmkAQtbEJd1vam/giphy.gif)
+# Flow illustration
+Code for these animations found in `notebooks/double_banana_flows.ipynb`.
 ![SVGD](https://media.giphy.com/media/m9FLn6E31NDUfGNrEJ/giphy.gif)
+![sSVGD](https://media.giphy.com/media/CH7cd0w3CbeaGon7vt/giphy.gif)
 ![SVN](https://media.giphy.com/media/lThEzFxUIC3z1q208Q/giphy.gif)
+![sSVN](https://media.giphy.com/media/BCxYUmkAQtbEJd1vam/giphy.gif)
+
+
 
 <!-- Dynamics on a two dimensional hybrid Rosenbrock density.
 
