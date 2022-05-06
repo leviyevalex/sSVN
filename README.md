@@ -2,7 +2,7 @@
 A package accompanying https://arxiv.org/abs/2204.09039, which implements Stein variational gradient descent (SVGD), Stein variational Newton (SVN), and their stochastic counterparts (sSVGD, sSVN).
 
 # Flow illustration
-Code for these animations found in `notebooks/double_banana_flows.ipynb`.
+Code for these animations found in `notebooks/double_banana_flows.ipynb`
 ![SVGD](https://media.giphy.com/media/m9FLn6E31NDUfGNrEJ/giphy.gif)
 ![sSVGD](https://media.giphy.com/media/CH7cd0w3CbeaGon7vt/giphy.gif)
 ![SVN](https://media.giphy.com/media/lThEzFxUIC3z1q208Q/giphy.gif)
